@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/ice"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+           android:layout_width="129dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:layout_height="129dp"
+            android:src="@drawable/catery_child_default"/>
+
+    <TextView
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/title"
+            android:textColor="#333333"
+            app:layout_constraintTop_toTopOf="@id/ice"
+            app:layout_constraintLeft_toRightOf="@id/ice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活品竹生活"/>
+
+
+    <TextView
+            android:layout_marginEnd="17dp"
+            android:id="@+id/price"
+            app:layout_constraintBottom_toBottomOf="@id/ice"
+            app:layout_constraintLeft_toRightOf="@id/ice"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥25000"/>
+
+    <View
+            android:layout_width="0sp"
+            android:layout_height="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#cccccc"
+            app:layout_constraintTop_toBottomOf="@id/ice"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+</android.support.constraint.ConstraintLayout>

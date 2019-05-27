@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_height="match_parent">
+
+    <include
+            android:id="@+id/title_lin"
+            layout="@layout/include_back_title"/>
+
+    <ImageView
+
+            android:id="@+id/search"
+            app:layout_constraintTop_toTopOf="@id/title_lin"
+            app:layout_constraintBottom_toBottomOf="@id/title_lin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/search_bg"
+            android:padding="6dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+    <ScrollView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_lin"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:id="@+id/banner_lin"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="H,8:5"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                <com.youth.banner.Banner2
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/ll_ins"
+                    app:layout_constraintTop_toBottomOf="@id/banner_lin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+                <RelativeLayout
+
+                        android:id="@+id/rl_furniture"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:background="@drawable/home_jiaju_bg"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp">
+                    <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true">
+                        <ImageView
+                                android:id="@+id/iv_furniture"
+                                android:layout_width="24dp"
+                                android:layout_height="29dp"
+                                android:background="@drawable/order_detail_ice"/>
+                        <TextView
+                                android:id="@+id/tv_furniture"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#333333"
+                                android:layout_marginLeft="6dp"
+                                android:textSize="15sp"
+                                android:gravity="left|top"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@id/iv_furniture"
+                                android:text="家居套餐"/>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                        android:id="@+id/rl_checkin"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_jiaju_bg"
+                        android:layout_marginRight="15dp">
+                    <RelativeLayout android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView
+                            android:id="@+id/iv_icom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_checklin"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/iv_icom"
+                            android:text="拎包入住"/>
+                </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    app:layout_constraintTop_toBottomOf="@id/ll_ins"
+                    android:id="@+id/usless_v3"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/homepage_recomand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_marginTop="12dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:text="推荐"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/homepage_like"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_marginTop="12dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:text="推荐"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:src="@drawable/homepage_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:textSize="12sp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000000"
+                            android:text="推荐"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                    android:layout_marginTop="19.5dp"
+                    app:layout_constraintTop_toBottomOf="@id/usless_v3"
+                    android:id="@+id/usless3_v31"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:visibility="gone"
+                    android:background="#f5f5f5"
+                    />
+            <ImageView
+                    app:layout_constraintTop_toBottomOf="@id/usless3_v31"
+                    android:layout_marginStart="16dp"
+
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/usless_v3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/usless_homepage"/>
+
+            <TextView
+                    android:id="@+id/homepage_content_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/usless_v3_1"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:text="品牌家具"
+                    android:layout_marginTop="44.5dp"
+                    />
+
+            <TextView
+                    android:id="@+id/homepage_content_catery_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/homepage_content_title"
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    android:layout_marginTop="16.5dp"
+                    />
+
+            <View
+                    android:id="@+id/homepage_content_catery_divder_right"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="#CCCCCC"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center"
+                    app:layout_constraintLeft_toRightOf="@id/homepage_content_catery_center"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    />
+
+
+            <View
+                    android:id="@+id/homepage_content_catery_divder_left"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="#CCCCCC"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center"
+                    app:layout_constraintRight_toLeftOf="@id/homepage_content_catery_center"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    />
+
+
+            <TextView
+                    android:id="@+id/homepage_content_catery_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center"
+                    app:layout_constraintRight_toLeftOf="@id/homepage_content_catery_divder_left"
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    />
+
+            <TextView
+                    android:layout_marginStart="6dp"
+                    android:id="@+id/homepage_content_catery_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center"
+                    app:layout_constraintLeft_toRightOf="@id/homepage_content_catery_divder_right"
+
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    />
+
+
+            <com.zhouwei.mzbanner.MZBannerView
+                    android:id="@+id/mz_banner"
+                    app:layout_constraintTop_toBottomOf="@id/homepage_content_catery_center"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"/>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/show_more"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mz_banner"
+                    android:layout_width="64dp"
+                    android:layout_height="118dp">
+
+
+                <ImageView
+                        android:id="@+id/show_more_btn"
+                        android:padding="6dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:src="@drawable/show_more_bg"/>
+                <!--<TextView-->
+                        <!--app:layout_constraintBottom_toTopOf="@id/useless2"-->
+                        <!--android:id="@+id/useless1"-->
+                        <!--app:layout_constraintTop_toTopOf="parent"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--app:layout_constraintVertical_chainStyle="packed"-->
+                        <!--app:layout_constraintRight_toRightOf="parent"-->
+                        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                        <!--android:text="查看"/>-->
+
+                <!--<TextView-->
+                        <!--android:id="@+id/useless2"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--app:layout_constraintTop_toBottomOf="@id/useless1"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--app:layout_constraintRight_toRightOf="parent"-->
+                        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                        <!--android:text="更 多"/>-->
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item1"
+                    style="@style/homepage_item_contaier"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/item2"
+                    app:layout_constraintTop_toTopOf="@id/show_more">
+
+
+                <ImageView
+
+                        android:id="@+id/item1_image"
+                        style="@style/homepage_item_ice"
+                        android:src="@drawable/catery_child_default"/>
+
+                <TextView
+                        app:layout_constraintTop_toBottomOf="@id/item1_image"
+                        style="@style/homepage_item_title"
+                        android:id="@+id/item1_name"/>
+
+
+                <TextView
+                        android:id="@+id/item1_price"
+                        style="@style/homepage_item_money"
+                        app:layout_constraintTop_toBottomOf="@id/item1_name"/>
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item2"
+                    style="@style/homepage_item_contaier"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintEnd_toStartOf="@id/item3"
+                    app:layout_constraintStart_toEndOf="@id/item1"
+                    app:layout_constraintTop_toTopOf="@id/show_more">
+
+                <ImageView
+
+                        android:id="@+id/item2_image"
+                        style="@style/homepage_item_ice"
+                        android:src="@drawable/catery_child_default"
+                        />
+
+                <TextView
+                        android:id="@+id/item2_name"
+                        style="@style/homepage_item_title"
+                        app:layout_constraintTop_toBottomOf="@id/item2_image"/>
+
+
+                <TextView
+                        android:id="@+id/item2_price"
+                        style="@style/homepage_item_money"
+                        app:layout_constraintTop_toBottomOf="@id/item2_name"
+                        />
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item3"
+                    app:layout_constraintEnd_toStartOf="@id/show_more"
+                    app:layout_constraintStart_toEndOf="@id/item2"
+
+                    style="@style/homepage_item_contaier"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="12dp"
+                    app:layout_constraintTop_toTopOf="@id/show_more">
+
+                <ImageView
+
+                        style="@style/homepage_item_ice"
+                        android:id="@+id/item3_image"
+                        android:src="@drawable/catery_child_default"
+                        />
+
+                <TextView
+                        android:id="@+id/item3_name"
+                        style="@style/homepage_item_title"
+                        app:layout_constraintTop_toBottomOf="@id/item3_image"
+                        />
+
+
+                <TextView
+                        style="@style/homepage_item_money"
+                        android:id="@+id/item3_price"
+                        app:layout_constraintTop_toBottomOf="@id/item3_name"/>
+            </android.support.constraint.ConstraintLayout>
+
+
+            <TextView
+                    android:id="@+id/homepage_content_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/item3"
+                    android:textColor="@android:color/black"
+                    android:textSize="23sp"
+                    android:text="软装家具"
+                    android:layout_marginTop="57dp"
+                    />
+
+            <TextView
+                    android:id="@+id/homepage_content_catery_center1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/homepage_content_title1"
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    android:layout_marginTop="16.5dp"
+                    />
+
+            <View
+                    android:id="@+id/homepage_content_catery_divder_right1"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="#CCCCCC"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintLeft_toRightOf="@id/homepage_content_catery_center1"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    />
+
+
+            <View
+                    android:id="@+id/homepage_content_catery_divder_left1"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="#CCCCCC"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintRight_toLeftOf="@id/homepage_content_catery_center1"
+
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    />
+
+
+            <TextView
+                    android:id="@+id/homepage_content_catery_left1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintRight_toLeftOf="@id/homepage_content_catery_divder_left1"
+
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    />
+
+            <TextView
+                    android:layout_marginStart="6dp"
+                    android:id="@+id/homepage_content_catery_right1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintBottom_toBottomOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintLeft_toRightOf="@id/homepage_content_catery_divder_right1"
+
+                    android:textColor="@color/homepage_content_catery"
+                    android:textSize="15sp"
+                    android:text="品牌家具"
+                    />
+
+
+            <com.zhouwei.mzbanner.MZBannerView
+                    android:id="@+id/mz_banner1"
+                    app:layout_constraintTop_toBottomOf="@id/homepage_content_catery_center1"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"/>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/show_more1"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="6dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mz_banner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="118dp">
+
+                <ImageView
+                        android:id="@+id/show_more1_btn"
+                        android:padding="4dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:src="@drawable/show_more_bg"/>
+                <!--<TextView-->
+                        <!--app:layout_constraintBottom_toTopOf="@id/useless21"-->
+                        <!--android:id="@+id/useless11"-->
+                        <!--app:layout_constraintTop_toTopOf="parent"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--app:layout_constraintVertical_chainStyle="packed"-->
+                        <!--app:layout_constraintRight_toRightOf="parent"-->
+                        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                        <!--android:text="查看"/>-->
+
+                <!--<TextView-->
+                        <!--android:id="@+id/useless21"-->
+                        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                        <!--app:layout_constraintTop_toBottomOf="@id/useless11"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--app:layout_constraintRight_toRightOf="parent"-->
+                        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+                        <!--android:text="更 多"/>-->
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item11"
+                    style="@style/homepage_item_contaier"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/item21"
+                    app:layout_constraintTop_toTopOf="@id/show_more1">
+
+
+                <ImageView
+                        android:id="@+id/item1_image1"
+                        style="@style/homepage_item_ice"
+                        android:src="@drawable/catery_child_default"
+                        />
+
+                <TextView
+                        android:id="@+id/item1_name1"
+                        style="@style/homepage_item_title"
+                        app:layout_constraintTop_toBottomOf="@id/item1_image1"
+                        />
+
+
+                <TextView
+                        android:id="@+id/item1_price1"
+                        style="@style/homepage_item_money"
+                        app:layout_constraintTop_toBottomOf="@id/item1_name1"/>
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item21"
+                    style="@style/homepage_item_contaier"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    app:layout_constraintEnd_toStartOf="@id/item31"
+                    app:layout_constraintStart_toEndOf="@id/item11"
+                    app:layout_constraintTop_toTopOf="@id/show_more1">
+
+                <ImageView
+
+                        android:id="@+id/item2_image1"
+                        style="@style/homepage_item_ice"
+                        android:src="@drawable/catery_child_default"
+                        />
+
+                <TextView
+                        android:id="@+id/item2_name1"
+                        style="@style/homepage_item_title"
+                        app:layout_constraintTop_toBottomOf="@id/item2_image1"
+                        android:text="阿图壁家具巴拉"/>
+
+
+                <TextView
+                        android:id="@+id/item2_price1"
+                        style="@style/homepage_item_money"
+                        app:layout_constraintTop_toBottomOf="@id/item2_name1"/>
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/item31"
+                    style="@style/homepage_item_contaier"
+                    app:layout_constraintEnd_toStartOf="@id/show_more1"
+                    app:layout_constraintStart_toEndOf="@id/item21"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    app:layout_constraintTop_toTopOf="@id/show_more1">
+
+                <ImageView
+
+                        android:id="@+id/item3_image1"
+                        style="@style/homepage_item_ice"
+                        android:src="@drawable/catery_child_default"
+                        />
+
+                <TextView
+                        android:id="@+id/item3_name1"
+                        style="@style/homepage_item_title"
+                        app:layout_constraintTop_toBottomOf="@id/item3_image1"
+                        android:text="阿图壁家具巴拉"/>
+
+
+                <TextView
+                        android:id="@+id/item3_price1"
+                        style="@style/homepage_item_money"
+                        app:layout_constraintTop_toBottomOf="@id/item3_name1"/>
+            </android.support.constraint.ConstraintLayout>
+
+
+            <ImageView
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/show_more1"
+                    android:src="@drawable/homepage_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="57dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_height="wrap_content"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

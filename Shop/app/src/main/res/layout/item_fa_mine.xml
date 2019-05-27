@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+<RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/rl_fa"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/combo_datail_item_bg"
+                android:layout_height="84dp">
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:text="方案名称"/>
+    <TextView
+            android:id="@+id/tv_hx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:layout_alignLeft="@id/tv_name"
+            android:text="三室一厅 | 158㎡"/>
+    <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_name"
+            android:layout_marginRight="15dp"
+            android:text="总价：￥5566.00"
+            android:textColor="#333333"
+            android:textSize="18sp"/>
+    <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/tv_price"
+            android:layout_alignTop="@id/tv_hx"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:text="2019-04-13 14:13:00"/>
+</RelativeLayout>
+    <LinearLayout
+            android:id="@+id/ll_footer_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@id/tv_hx"
+            android:paddingTop="20dp"
+            android:visibility="gone"
+            android:paddingBottom="10dp" >
+        <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="这是我的底线哦！"/>
+        <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+    </LinearLayout>
+</LinearLayout>
+

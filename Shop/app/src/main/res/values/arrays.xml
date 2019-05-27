@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="study_view_spinner_values">
+        <item>全部</item>
+        <item>收入</item>
+        <item>已提现</item>
+    </string-array>
+
+    <!-- 拎包入住户型数据-->
+    <string-array name="hx_value">
+        <item>一室一厅</item>
+        <item>二室一厅</item>
+        <item>二室二厅</item>
+        <item>三室一厅</item>
+        <item>三室二厅</item>
+        <item>四室一厅</item>
+        <item>四室二厅</item>
+        <item>四室三厅</item>
+    </string-array>
+    <string-array name="hx_key">
+        <item>hx_one_one</item>
+        <item>hx_two_one</item>
+        <item>hx_two_two</item>
+        <item>hx_three_one</item>
+        <item>hx_three_two</item>
+        <item>hx_four_one</item>
+        <item>hx_four_two</item>
+        <item>hx_four_three</item>
+    </string-array>
+    <string-array name="hx_one_one">
+        <item>客厅</item>
+        <item>餐厅</item>
+        <item>卧室</item>
+    </string-array>
+    <string-array name="hx_two_one">
+        <item>主卧</item>
+        <item>次卧</item>
+        <item>客厅</item>
+    </string-array>
+
+    <string-array name="hx_two_two">
+        <item>主卧</item>
+        <item>次卧</item>
+        <item>客厅一</item>
+        <item>客厅二</item>
+    </string-array>
+    <string-array name="hx_three_one">
+        <item>卧室一</item>
+        <item>卧室二</item>
+        <item>卧室三</item>
+        <item>客厅</item>
+    </string-array>
+    <string-array name="hx_three_two">
+        <item>卧室一</item>
+        <item>卧室二</item>
+        <item>卧室三</item>
+        <item>客厅一</item>
+        <item>客厅二</item>
+    </string-array>
+    <string-array name="hx_four_one">
+        <item>卧室一</item>
+        <item>卧室二</item>
+        <item>卧室三</item>
+        <item>卧室四</item>
+        <item>客厅一</item>
+    </string-array>
+    <string-array name="hx_four_two">
+        <item>卧室一</item>
+        <item>卧室二</item>
+        <item>卧室三</item>
+        <item>卧室四</item>
+        <item>客厅一</item>
+        <item>客厅二</item>
+    </string-array>
+    <string-array name="hx_four_three">
+        <item>卧室一</item>
+        <item>卧室二</item>
+        <item>卧室三</item>
+        <item>卧室四</item>
+        <item>客厅一</item>
+        <item>客厅二</item>
+        <item>客厅三</item>
+    </string-array>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="254dp"
+        android:layout_height="292dp"
+        android:background="@drawable/dialog_bg">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/start_downloag"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="254dp"
+            android:layout_height="292dp">
+
+        <TextView
+                android:text="发现新版本"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/title"
+                android:layout_marginTop="41dp"
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:text="V1.0"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/title"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:id="@+id/versin_name"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:id="@+id/ice"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="51dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:src="@drawable/dialog_ice"
+                android:layout_height="95dp"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/content"
+                android:gravity="top|start"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                app:layout_constraintTop_toBottomOf="@id/ice"
+                android:layout_marginBottom="80dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="16dp"
+                />
+
+
+        <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="192dp"
+
+                android:layout_marginBottom="56dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_height="10dip"
+                android:max="100"
+                android:progressDrawable="@drawable/progressbar_color"/>
+
+        <TextView
+                android:id="@+id/download_text"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="#333333"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/progressBar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:text="版本下载中"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/cancleBtn"
+                android:layout_width="0dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/confirmBtn"
+                android:background="@drawable/info_edit_bg"
+                android:text="下次更新"
+                android:layout_marginStart="12dp"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/confirmBtn"
+                app:layout_constraintStart_toEndOf="@id/cancleBtn"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/info_edit_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="立即更新"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_marginEnd="12dp"
+                android:layout_height="wrap_content"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_progress"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="gone">-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/progressBar"-->
+    <!--style="?android:attr/progressBarStyleHorizontal"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="5dip"-->
+    <!--android:layout_weight="1"-->
+    <!--android:max="100"-->
+    <!--android:progressDrawable="@drawable/progressbar_color"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_progress"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:gravity="right"-->
+    <!--android:text="0%"-->
+    <!--android:textColor="#333333"-->
+    <!--android:textSize="16sp"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_install"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:gravity="right"-->
+    <!--android:textSize="16sp"-->
+    <!--android:text="安装"-->
+    <!--android:visibility="gone"/>-->
+
+    <!--</LinearLayout>-->
+
+</android.support.constraint.ConstraintLayout>

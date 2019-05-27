@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--暂时用这个破方法吧，，，，-->
+    <item android:drawable="@drawable/enable_bg" android:state_enabled="false"/>
+
+    <item android:drawable="@drawable/checked_bg" android:state_checked="true"/>
+
+    <item android:drawable="@drawable/normal_bg"/>
+</selector>

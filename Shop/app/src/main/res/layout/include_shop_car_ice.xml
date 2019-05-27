@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:id="@+id/shopcar_lin"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+            android:id="@+id/shopcar_ice"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/shopcar_ice_bg_check"/>
+
+    <TextView
+            android:id="@+id/dot_shopcar_count"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="h,1:1"
+            android:textSize="9sp"
+            android:text="0"
+            android:visibility="gone"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="#ffffff"
+            android:background="@drawable/circle_bg"/>
+
+</android.support.constraint.ConstraintLayout>

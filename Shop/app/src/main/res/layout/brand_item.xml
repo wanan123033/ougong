@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:id="@+id/brand_item_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/catery_child_default"
+            />
+
+
+    <ImageView
+            android:layout_marginTop="12dp"
+            android:id="@+id/brand_item_ice"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintTop_toBottomOf="@id/brand_item_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/catery_child_default"
+            />
+
+    <View
+            app:layout_constraintTop_toBottomOf="@id/brand_item_ice"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+    <!--<TextView-->
+            <!--android:id="@+id/brand_item_name"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--android:layout_marginTop="21dp"-->
+            <!--android:layout_marginStart="12dp"-->
+            <!--android:layout_marginEnd="12dp"-->
+            <!--android:textColor="#333333"-->
+            <!--android:textSize="15sp"-->
+            <!--android:maxLines="1"-->
+            <!--android:ellipsize="end"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/brand_item_ice"-->
+            <!--android:text="-&#45;&#45;"/>-->
+
+
+</android.support.constraint.ConstraintLayout>

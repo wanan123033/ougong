@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+            android:id="@+id/usless1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#eeeeee"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <ImageView
+            android:id="@+id/usless2"
+            android:src="@drawable/paypay"
+            app:layout_constraintTop_toTopOf="@id/usless1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="17dp"
+            android:textColor="#333333"
+            android:text="支付宝支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            app:layout_constraintTop_toTopOf="@id/usless1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/usless2"
+            android:layout_marginStart="11dp"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:text="支付宝支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <CheckBox
+            android:id="@+id/isDefault"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp"
+            android:button="@drawable/checkbox"
+            android:background="@null"
+
+            android:clickable="false"
+            android:checked="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</android.support.constraint.ConstraintLayout>

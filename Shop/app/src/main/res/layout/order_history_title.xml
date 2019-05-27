@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#f5f5f5">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/order_title_line"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+                android:id="@+id/order_h_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/order_h_status"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="12dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="gnsdkjgnsdefrg0sderhgsrhgrt"/>
+
+        <TextView
+                android:id="@+id/order_h_status"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="20dp"
+                android:text="未支付"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+
+            android:id="@+id/decoration_order_title_line"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:visibility="gone"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+                android:id="@+id/decoration_order_h_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/decoration_order_h_status"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="12dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/decoration_order_h_factory"
+                android:text="gnsdkjgnsdefrg0sderhgsrhgrt"/>
+
+        <TextView
+                android:id="@+id/decoration_order_h_factory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/decoration_order_h_status"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="12dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/decoration_order_h_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="gnsdkjgnsdefrg0sderhgsrhgrt"/>
+
+        <TextView
+                android:id="@+id/decoration_order_h_status"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="20dp"
+                android:text="未支付"
+                app:layout_constraintTop_toTopOf="@id/decoration_order_h_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_back_title" />
+    <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+                android:id="@+id/tv_priceccccc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="全部房间：¥0.00"/>
+        <TextView
+                android:id="@+id/tv_commit_fa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="提交方案(0) "
+                android:textSize="18sp"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="24dp"
+                android:paddingRight="17dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:layout_gravity="end"/>
+    </RelativeLayout>
+</LinearLayout>

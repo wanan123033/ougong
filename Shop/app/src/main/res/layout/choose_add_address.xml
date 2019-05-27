@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+            android:clickable="false"
+            android:id="@+id/isChoose"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:button="@drawable/checkbox"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:id="@+id/name"
+            android:text="王三三"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:layout_marginTop="21dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/isChoose"
+            android:maxLines="1"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            app:layout_constraintStart_toEndOf="@id/name"
+            app:layout_constraintTop_toTopOf="@id/name"
+            app:layout_constraintBottom_toBottomOf="@id/name"
+            android:textSize="10sp"
+            android:textColor="#ffffff"
+            android:text="默认"
+            android:visibility="gone"
+            android:layout_marginStart="4dp"
+            android:background="#000000"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:id="@+id/is_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/phone"
+            android:text="1345645154515"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:layout_marginTop="21dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/address_iedt"
+            android:layout_marginEnd="15dp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:id="@+id/address"
+            android:gravity="start"
+            android:text="balabaklbaiihdfiernpjrfgwe"
+            app:layout_constraintStart_toEndOf="@id/isChoose"
+            app:layout_constraintEnd_toStartOf="@id/address_iedt"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            android:layout_marginTop="13dp"
+            android:layout_width="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            android:id="@+id/address_iedt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/edit_bg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/register_divder"
+            style="@style/account_divider_horizontal_1px"
+            android:layout_marginTop="17dp"
+            app:layout_constraintTop_toBottomOf="@id/address"/>
+
+</android.support.constraint.ConstraintLayout>

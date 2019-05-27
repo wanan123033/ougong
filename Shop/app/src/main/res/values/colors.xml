@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#000000</color>
+    <color name="statusBar">#EEEEEE</color>
+    <color name="eeeeee">#EEEEEE</color>
+    <color name="indecate">#00C6C0</color>
+    <color name="textcolor">#666666</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="f5f5f5">#f5f5f5</color>
+    <color name="half">#6000</color>
+    <color name="transparentsmll_bg">#33000000</color>
+    <color name="j666">#666666</color>
+    <color name="j000">#000000</color>
+    <color name="color_693f3e">#693f3e</color>
+    <color name="color_fe9901">#fe9901</color>
+    <color name="color_000000">#000000</color>
+    <drawable name="color_cccccc">#CCCCCC</drawable>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fitsSystemWindows="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ProductList.midle.ProductMidleListActivity">
+
+
+    <include
+            android:id="@+id/title_lin"
+            layout="@layout/include_back_title"/>
+
+    <include
+            app:layout_constraintTop_toTopOf="@id/title_lin"
+            app:layout_constraintBottom_toBottomOf="@id/title_lin"
+            app:layout_constraintEnd_toEndOf="@id/title_lin"
+            layout="@layout/include_shop_car_ice"
+            android:layout_marginEnd="15dp"
+            android:layout_width="28dp"
+            android:layout_height="26dp"/>
+
+    <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/f5f5f5"
+            app:layout_constraintTop_toBottomOf="@id/title_lin"
+            app:tabIndicatorColor="@android:color/black"
+            app:tabMode="scrollable"
+            app:tabTextAppearance="@style/tabtext"
+            app:tabSelectedTextColor="@android:color/black"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="2dp"
+            app:tabMinWidth="0dp"
+            app:tabTextColor="#999999"/>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpage"
+            app:layout_constraintTop_toBottomOf="@id/tabLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

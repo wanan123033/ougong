@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+        android:id="@+id/text1"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#0000ff"
+        android:text="adfsgasdf"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:minHeight="38dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="38dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>

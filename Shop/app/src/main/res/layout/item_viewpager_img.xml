@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:paddingTop="5dp"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           android:paddingBottom="2dp"
+           android:scaleType="fitXY"
+           android:background="@drawable/img_selected_combo"/>

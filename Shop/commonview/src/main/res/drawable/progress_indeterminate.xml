@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:top="20dp"
+            android:bottom="20dp"
+            android:left="20dp"
+            android:right="20dp">
+
+        <rotate
+                android:drawable="@drawable/diot_progress"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:fromDegrees="0"
+                android:toDegrees="360" />
+
+    </item>
+
+</selector>

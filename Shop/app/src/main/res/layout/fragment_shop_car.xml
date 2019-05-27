@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include
+            android:id="@+id/titlebar"
+            layout="@layout/include_shopcar_title"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+            app:layout_constraintTop_toBottomOf="@id/titlebar"
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toTopOf="@id/bottom_bar"
+            android:layout_height="0dp"/>
+
+    <ImageView
+            android:id="@+id/empty_view"
+            android:layout_width="0dp"
+            android:src="@drawable/shopcar_empty"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titlebar"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="65dp"
+            android:layout_height="wrap_content"/>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#eeeeee"
+            android:layout_height="48dp">
+
+
+        <CheckBox
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="15dp"
+                android:button="@null"
+                android:background="@drawable/shopcar_checkbox_bg"
+                android:id="@+id/check_all"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+
+        <TextView
+                android:layout_marginStart="6dp"
+                android:id="@+id/check_all_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/check_all"
+                android:textSize="15sp"
+                android:text="全选"/>
+
+        <android.support.constraint.Guideline
+                android:id="@+id/diver_guide"
+                app:layout_constraintGuide_percent="0.66"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="0dp"/>
+
+        <TextView
+                android:id="@+id/buy_it"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintLeft_toRightOf="@id/diver_guide"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:gravity="center"
+                android:text="去结算（4）"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+
+        <TextView
+                android:id="@+id/total_price"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/check_all_txt"
+                app:layout_constraintRight_toLeftOf="@id/diver_guide"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合计:0.0"/>
+
+        <CheckBox
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="15dp"
+                android:button="@null"
+                android:background="@drawable/shopcar_checkbox_bg"
+                android:id="@+id/edit_check_all"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        <TextView
+                android:layout_marginStart="6dp"
+                android:id="@+id/edit_check_all_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/edit_check_all"
+                android:textSize="15sp"
+                android:text="全选"/>
+
+        <TextView
+                android:id="@+id/shopcar_delect"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/diver_guide"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="18sp"
+                android:text="删除"
+                android:textColor="#ffffff"
+                android:background="#000000"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

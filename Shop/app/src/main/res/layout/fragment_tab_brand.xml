@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.TabLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/tabLayout"
+            android:layout_marginTop="19.5dp"
+            android:layout_width="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            app:tabGravity="fill"
+            app:tabIndicator="@null"
+            app:tabMinWidth="0dp"
+            app:tabPaddingBottom="0dp"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"
+            app:tabPaddingTop="0dp"
+            app:tabMode="scrollable"/>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+            app:layout_constraintTop_toBottomOf="@id/tabLayout"
+            android:id="@+id/recycleView"
+            android:layout_marginTop="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_width="0dp"
+            android:background="@color/f5f5f5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="0dp"/>
+    <!--<View-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="@id/recycleView"-->
+            <!--app:layout_constraintBottom_toBottomOf="@id/recycleView"-->
+            <!--android:layout_width="8dp"-->
+            <!--android:layout_height="0dp"/>-->
+</android.support.constraint.ConstraintLayout>

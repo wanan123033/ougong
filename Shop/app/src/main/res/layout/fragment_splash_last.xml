@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent">
+
+
+
+    <ImageView
+            android:id="@+id/splash_fragment_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:src="@drawable/splash_content1"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:scaleType="fitXY"
+            android:layout_height="wrap_content"/>
+
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/enter"
+
+            android:layout_marginBottom="33dp"
+            android:src="@drawable/splash_logo"/>
+
+    <ImageButton
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="53dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="51dp"
+            android:id="@+id/enter"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/splash_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+    <ImageView
+            android:id="@+id/splash_fragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/splash_title_2"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/splash_fragment_content"
+            app:layout_constraintVertical_bias="0.38"
+            />
+
+</android.support.constraint.ConstraintLayout>

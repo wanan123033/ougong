@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:scaleType="fitXY"
+            android:id="@+id/iv_img"/>
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+    <View android:layout_width="match_parent" android:layout_height="28dp" />
+    <LinearLayout
+            android:id="@+id/ll_footer_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:visibility="gone"
+            android:paddingBottom="10dp" >
+        <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="这是我的底线哦！"/>
+        <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+    </LinearLayout>
+</LinearLayout>

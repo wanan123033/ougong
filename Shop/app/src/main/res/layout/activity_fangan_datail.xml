@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_back_title" />
+
+    <include layout="@layout/item_fa_mine" />
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_fa_datail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="总价："/>
+        <TextView
+                android:id="@+id/tv_pricecdcd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_text"
+                android:text="￥7000.00"/>
+
+        <TextView
+                android:id="@+id/tv_goumai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:padding="14dp"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"
+                android:text="立即购买(15)"/>
+        <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_goumai"
+                android:padding="14dp"
+                android:textSize="16sp"
+                android:background="@drawable/shape_splh_line"
+                android:text="删除方案"/>
+    </RelativeLayout>
+</LinearLayout>

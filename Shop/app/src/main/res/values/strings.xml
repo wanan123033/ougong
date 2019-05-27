@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">软装到家</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="home_page" translatable="false">首页</string>
+    <string name="no_password" translatable="false">请输入正确的密码格式</string>
+    <string name="no_username" translatable="false">账号不能为空</string>
+    <string name="no_phone_no" translatable="false">请输入正确的手机号码</string>
+    <string name="send_sms_sucess" translatable="false">发送成功</string>
+    <string name="no_check_no" translatable="false">请输入验证码</string>
+    <string name="agree_liecee" translatable="false">您必同意用户协议</string>
+    <string name="home_page_title" translatable="false">软装到家</string>
+    <string name="changephone" translatable="false">修改绑定手机号码</string>
+    <string name="title_activity_choose_place" translatable="false">ChoosePlace</string>
+    <string name="title_activity_product_detail" translatable="false">ProductDetailActivity</string>
+
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. Curabitur luctus justo vel consequat fermentum. Donec facilisis elit in sem suscipit pharetra. Curabitur porta et dolor eget pretium. Mauris quam augue, interdum nec tempor vitae, consectetur at erat.</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. </string>
+    <string name="lorem_ipsum3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis.</string>
+    <string name="show_all_content">Show all content</string>
+    <string name="str_not_net">无法连接网络</string>
+</resources>

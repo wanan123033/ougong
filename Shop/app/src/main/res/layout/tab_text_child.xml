@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.constraint.ConstraintLayout-->
+<!--<TextView-->
+        <!--android:id="@+id/textcontent"-->
+        <!--android:background="@drawable/tab_text_bg"-->
+        <!--android:textColor="@color/tab_text_bg"-->
+        <!--android:paddingStart="12dp"-->
+        <!--android:paddingEnd="12dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textSize="15sp"-->
+        <!--android:minHeight="38dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_height="38dp"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"/>-->
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:layout_marginStart="7dp"
+            android:id="@+id/textcontent"
+            android:background="@drawable/tab_text_bg"
+            android:textColor="@color/tab_text_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:minHeight="38dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="38dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+</LinearLayout>

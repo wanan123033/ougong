@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_marginTop="27dp"
+            android:id="@+id/money"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:textColor="#ffffff"
+            android:text="854785"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="27dp"
+            android:text="可提现金额(元）"
+            android:textSize="12sp"
+            android:id="@+id/usless1"
+            app:layout_constraintTop_toBottomOf="@id/money"
+            android:textColor="#ffffff"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:layout_marginTop="15dp"
+            android:text="提现"
+            android:background="#ffffffff"
+            android:textSize="15sp"
+            android:id="@+id/take_out_money"
+            app:layout_constraintTop_toBottomOf="@id/usless1"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"
+            android:layout_width="90dp"
+            android:layout_height="30dp"/>
+
+    <TextView
+            style="@style/money_title_sub_text"
+            android:id="@+id/have_take_out"
+            app:layout_constraintTop_toBottomOf="@id/take_out_money"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/can_take_out"/>
+
+
+    <TextView
+            style="@style/money_title_sub_text"
+            android:id="@+id/can_take_out"
+            app:layout_constraintTop_toBottomOf="@id/take_out_money"
+            app:layout_constraintStart_toEndOf="@id/have_take_out"
+            app:layout_constraintEnd_toStartOf="@id/factory_take_out"
+            />
+
+    <TextView
+            app:layout_constraintStart_toEndOf="@id/can_take_out"
+            style="@style/money_title_sub_text"
+            android:id="@+id/factory_take_out"
+            app:layout_constraintEnd_toStartOf="@id/vip_take_out"
+            app:layout_constraintTop_toBottomOf="@id/take_out_money"
+            />
+
+    <TextView
+            style="@style/money_title_sub_text"
+            android:id="@+id/vip_take_out"
+            app:layout_constraintTop_toBottomOf="@id/take_out_money"
+            app:layout_constraintStart_toEndOf="@id/factory_take_out"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            style="@style/money_title_sub_text_title"
+            android:id="@+id/have_take_out_title"
+            android:text="已提现"
+            app:layout_constraintTop_toBottomOf="@id/have_take_out"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/can_take_out_title"/>
+
+
+    <TextView
+            style="@style/money_title_sub_text_title"
+            android:id="@+id/can_take_out_title"
+            android:text="可提现"
+            app:layout_constraintTop_toBottomOf="@id/have_take_out"
+            app:layout_constraintStart_toEndOf="@id/have_take_out_title"
+            app:layout_constraintEnd_toStartOf="@id/factory_take_out_title"
+            />
+
+    <TextView
+            app:layout_constraintStart_toEndOf="@id/can_take_out_title"
+            style="@style/money_title_sub_text_title"
+            android:id="@+id/factory_take_out_title"
+            android:text="装修公司提成"
+            app:layout_constraintEnd_toStartOf="@id/vip_take_out_title"
+            app:layout_constraintTop_toBottomOf="@id/have_take_out"
+            />
+
+    <TextView
+            style="@style/money_title_sub_text_title"
+            android:id="@+id/vip_take_out_title"
+            android:text="vip设计师提成"
+            app:layout_constraintTop_toBottomOf="@id/have_take_out"
+            app:layout_constraintStart_toEndOf="@id/factory_take_out_title"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!--加入一个层级后。其实没什么用，-->
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/usless2"
+            android:background="#ffffff"
+            android:layout_marginTop="17.5dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/have_take_out_title"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+
+        <Spinner
+                android:id="@+id/spinner"
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@drawable/spinner_bg"
+                android:entries="@array/study_view_spinner_values"
+                android:layout_width="65dp"
+                android:layout_height="30dp"/>
+
+
+        <TextView
+                android:id="@+id/confirm"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:text="搜索"
+                android:gravity="center"
+                android:layout_width="65dp"
+                android:layout_height="30dp"/>
+
+        <TextView
+                android:id="@+id/start_time_text"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/spinner"
+                app:layout_constraintEnd_toStartOf="@id/usless_diveder"
+
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#333333"
+                android:background="@drawable/info_edit_bg"
+                android:text="2019-01-01"
+                android:layout_marginEnd="1.5dp"
+                android:layout_marginStart="8.5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <View
+                android:id="@+id/usless_diveder"
+                android:background="#cccccc"
+                app:layout_constraintStart_toEndOf="@id/start_time_text"
+                app:layout_constraintEnd_toStartOf="@id/end_time_text"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="12dp"
+                android:layout_height="1dp"/>
+
+        <TextView
+
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                app:layout_constraintStart_toEndOf="@id/usless_diveder"
+                app:layout_constraintEnd_toStartOf="@id/confirm"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                android:layout_marginStart="1.5dp"
+                android:layout_marginEnd="8.5dp"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#333333"
+                android:background="@drawable/info_edit_bg"
+                android:text="2019-01-01"
+                android:id="@+id/end_time_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#f5f5f5"
+            app:layout_constraintTop_toBottomOf="@id/usless2"
+            />
+</android.support.constraint.ConstraintLayout>

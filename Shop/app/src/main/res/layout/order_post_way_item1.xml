@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+    <View
+            android:id="@+id/usless11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#eeeeee"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+    <CheckBox
+            android:id="@+id/post_isDefault1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:button="@drawable/checkbox"
+            android:background="@null"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/post_title1"
+            app:layout_constraintTop_toTopOf="@id/post_isDefault1"
+            app:layout_constraintBottom_toBottomOf="@id/post_isDefault1"
+            app:layout_constraintStart_toEndOf="@id/post_isDefault1"
+            android:layout_marginStart="18dp"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:text="自选物流"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <View
+            android:id="@+id/usless0"
+            app:layout_constraintTop_toBottomOf="@id/post_title1"
+
+            android:layout_width="match_parent"
+            android:layout_height="22dp"/>
+
+    <android.support.constraint.ConstraintLayout
+            app:layout_constraintTop_toBottomOf="@id/usless0"
+            android:layout_width="match_parent"
+            android:id="@+id/introduce_post_way"
+            android:visibility="gone"
+            android:background="#999999"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/ougong_post"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        <!--<View-->
+        <!--android:layout_marginTop="22dp"-->
+        <!--android:id="@+id/usless2"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--style="@style/usless1"-->
+        <!--/>-->
+
+        <!--<ImageView-->
+        <!--app:layout_constraintTop_toBottomOf="@id/usless2"-->
+        <!--android:id="@+id/usless3"-->
+        <!--style="@style/usless2"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--android:src="@drawable/catery_ice_bg"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/usless4"-->
+        <!--app:layout_constraintTop_toTopOf="@id/usless3"-->
+        <!--app:layout_constraintStart_toEndOf="@id/usless3"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:text="企业实力强，经验丰富"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+        <!--<TextView-->
+        <!--app:layout_constraintTop_toBottomOf="@id/usless4"-->
+        <!--app:layout_constraintStart_toEndOf="@id/usless3"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:text="佛山本土数一数二的物流企业，为您提供仓、干、支、配、装的一体化服务。"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

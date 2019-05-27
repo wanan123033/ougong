@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.ougong.shop">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+            android:name=".App"
+            android:allowBackup="true"
+            android:icon="@mipmap/my_ic_launcher"
+            android:label="@string/app_name"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning"
+            tools:targetApi="n">
+
+        <provider
+                android:name="android.support.v4.content.FileProvider"
+                android:authorities="com.ougong.shop.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <!--元数据-->
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths" />
+        </provider>
+        <activity android:name=".ActiivtyV2.brandtab.BrandActivity.BrandActivity"
+                  android:screenOrientation="portrait"
+                  android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".ActiivtyV2.B_clien.cheng_yun_shang.myMoney.MyMoneyActivity"
+                  android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".ActiivtyV2.B_clien.decoration_factory.mydesinger.MyDesinger"
+                  android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".ActiivtyV2.B_clien.decoration_factory.editinfo.DecorationEditActivity"
+                  android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity
+                android:name=".activity.SplashActivity.SplashActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"
+                android:theme="@style/App.Theme.Launch"
+                android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                android:resizeableActivity="true"
+                android:label="@string/app_name">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".activity.Account.login.LogInActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Account.register.RegisterActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Order.OrderActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+
+        <activity android:name=".activity.Order.QuickOrderActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Account.changePhone.changePhone" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Account.ChangePassword" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Account.ForgetPassword" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Maininfo.Setting.SystemSetting" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Maininfo.mangeAdress.MangeAdress" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.ProductList.bottom.ProductBotomList" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.ProductList.midle.ProductMidleListActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Product.ProductActivity" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity android:name=".activity.Maininfo.mangeAdress.addAddress.AddAddress" android:screenOrientation="portrait" android:resizeableActivity="true">
+        </activity>
+        <activity
+                android:name=".activity.Maininfo.mangeAdress.ChooseAddress.ChoosePlace"
+                android:label="@string/title_activity_choose_place"
+                android:launchMode="singleTop"
+                android:screenOrientation="portrait"
+                android:theme="@style/Window"
+                android:resizeableActivity="true"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.Maininfo.mangeAdress.editAdress.EditAdressActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.Maininfo.mangeAdress.editAdress.EditChooseActivity"
+                android:theme="@style/Window"
+                android:screenOrientation="portrait"
+                android:resizeableActivity="true"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <!--<activity android:name=".ActiivtyV2.B_clien.vip_designer.EditInfo.EditInfoActivity">-->
+        <!--</activity>-->
+
+        <activity android:resizeableActivity="true" android:name=".activity.Maininfo.EditInfo.EditInfoActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".ActiivtyV2.B_clien.cheng_yun_shang.editInfo.ChengYunShangEditInfoActivity" android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity android:resizeableActivity="true" android:name=".activity.Maininfo.orderhistory.OrderHistoryActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activity.Product.ProductDetail.ProductDetailActivity"
+                android:label="@string/title_activity_product_detail"
+                android:screenOrientation="portrait"
+                android:resizeableActivity="true"
+                android:theme="@style/Window">
+        </activity>
+        <activity
+                android:name=".activity.Product.ChoosePropertoes.ChooseProPertoseActivity"
+                android:launchMode="singleTop"
+                android:resizeableActivity="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/Window">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.PayResult.PayResult" android:screenOrientation="portrait">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.Maininfo.orderhistory.OrderHistoryDetail.orderHistoryDetailActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.mainHomepage.Search.SearchActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.ShopCar.ShopCarActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:resizeableActivity="true" android:name=".activity.MainShopCarFragment.ChooseAddress.ChooseAddress" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.combo.FurnitureActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.combo.ComboDatailActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.checkin.CheckInActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.checkin.CheckInFanganActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.checkin.MyFanganActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.checkin.FanganDatailActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.orderhistory.OrderHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:resizeableActivity="true" android:name=".activity.orderhistory.OrderDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.WebViewActivity"/>
+        <activity android:name=".activity.orderpay.QuickOrderActivity"/>
+
+        <service android:name=".download.DownloadService" />
+        <meta-data android:name = "android.max_aspect" android:value="2.1"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/ll_footer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="这是我的底线哦！"/>
+    <View android:layout_width="30dp" android:layout_height="1dp" android:background="#CCCCCC"/>
+</LinearLayout>

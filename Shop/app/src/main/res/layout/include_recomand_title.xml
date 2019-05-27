@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <View
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:background="#f5f5f5"
+            android:layout_height="10dp"/>
+
+    <TextView
+            android:id="@+id/content"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="为你推荐"/>
+
+    <ImageView
+            app:layout_constraintTop_toTopOf="@id/content"
+            app:layout_constraintBottom_toBottomOf="@id/content"
+            app:layout_constraintLeft_toRightOf="@id/content"
+            android:layout_width="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_height="1dp"
+            android:src="@drawable/login_divder"/>
+
+    <ImageView
+            app:layout_constraintTop_toTopOf="@id/content"
+            app:layout_constraintBottom_toBottomOf="@id/content"
+            app:layout_constraintRight_toLeftOf="@id/content"
+            android:layout_marginEnd="12dp"
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:src="@drawable/login_divder"/>
+
+</android.support.constraint.ConstraintLayout>
