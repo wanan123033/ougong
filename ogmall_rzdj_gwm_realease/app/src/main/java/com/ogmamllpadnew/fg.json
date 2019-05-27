@@ -1,0 +1,46 @@
+{
+  "pakege": "com.ogmamllpadnew",
+  "author": "陈俊山",
+  "data": [
+    {
+      "path": "ui/fragment",
+      "menu": [
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list1"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list2"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list3"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list4"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list5"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list6"
+        },
+        {
+          "isList": true,
+          "title": "记得记得列表",
+          "name": "list7"
+        }
+      ]
+    }
+  ]
+}

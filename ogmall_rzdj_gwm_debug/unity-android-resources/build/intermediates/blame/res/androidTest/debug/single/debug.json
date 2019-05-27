@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_beep.ogg.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_push_small.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\push_small.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_check_default.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_check_default.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_back_arr.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_back_arr.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_next.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_next.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_getui_notification.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\getui_notification.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_anyapps_web_view.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_anyapps_web_view.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_shape_main_edit.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_main_edit.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_close_v2.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_close_v2.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_anyapps_photo.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_anyapps_photo.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_selector_main_button.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_main_button.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_tumblr.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_tumblr.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_douban.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_douban.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_push.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\push.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_bluetooth.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_bluetooth.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_laiwangmoments.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_laiwangmoments.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_laiwang.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_laiwang.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_wechatmoments.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_facebook.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_facebook.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_shape_main_title.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_main_title.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_renren.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_renren.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_more_v2.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_more_v2.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_push.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\push.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ssdk_oks_ptr_ptr.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_full_web_view.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_full_web_view.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_anyapps_capture.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_anyapps_capture.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_flickr.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_push_small.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\push_small.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_next_v2.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_next_v2.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4_push.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\push.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_keep.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\raw\\keep.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_tencentweibo.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_tencentweibo.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_whatsapp.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_whatsapp.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_reload.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_reload.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_anyapps_launch.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_anyapps_launch.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_selector_capture_back.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_capture_back.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_bspace_web_view.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_bspace_web_view.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_anyapps_carema.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_anyapps_carema.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_kaixin.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_kaixin.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4_push_small.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\push_small.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_btn_back_normal.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_back_normal.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-mdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\mipmap-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_foursquare.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_foursquare.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_shape_main_imageview.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_main_imageview.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_btn.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_btn.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_mingdao.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_mingdao.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_yixin.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_yixin.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_vkontakte.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_vkontakte.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_pinterest.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_pinterest.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_check_checked.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_check_checked.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mo_scanner_album.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mo_scanner_album.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mo_scanner_main.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\layout\\mo_scanner_main.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_evernote.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_evernote.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_shortmessage.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_shortmessage.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_facebookmessenger.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_facebookmessenger.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\mipmap-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_scan_light.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scan_light.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_kakaotalk.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_kakaotalk.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_auth_title_back.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_sinaweibo.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mo_scanner_back_img.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mo_scanner_back_img.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_push.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\push.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_close.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_close.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_youdao.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_youdao.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_wechat.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechat.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_email.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_email.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ssdk_oks_classic_progressbar.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_title_div.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_title_div.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_qq.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_qq.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_yixinmoments.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_yixinmoments.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_qzone.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_qzone.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_shape_main_button.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_main_button.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_logo.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_last.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_last.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_wechatfavorite.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatfavorite.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_dropbox.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_dropbox.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_instagram.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_instagram.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_line.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_line.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_kakaostory.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_kakaostory.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_push_small.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\push_small.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ssdk_oks_classic_platform_cell_back.xml.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_linkedin.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_linkedin.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_instapaper.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_instapaper.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_pocket.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_pocket.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_alipay.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_alipay.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mo_scanner_bg.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mo_scanner_bg.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mo_scanner_light_light.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mo_scanner_light_light.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_btn_back_press.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_back_press.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_googleplus.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_googleplus.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_web_cutsom_title_v2.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable\\web_cutsom_title_v2.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_push.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\push.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_push_small.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\push_small.png"
+    },
+    {
+        "merged": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ssdk_oks_classic_twitter.png.flat",
+        "source": "D:\\xiangmu\\OgmallPadNew\\ogmall_rzdj_gwm_debug\\unity-android-resources\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_twitter.png"
+    }
+]

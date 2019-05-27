@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:1-6:12
+	package
+		ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:70-107
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:3:25-50
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml:3:1-24
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+		ADDED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml
+		INJECTED from D:\xiangmu\OgmallPadNew\ogmall_rzdj_gwm_debug\unity-android-resources\AndroidManifest.xml

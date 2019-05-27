@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:1-6:12
+	package
+		ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:70-107
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:3:25-50
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml:3:1-24
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+uses-sdk
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+		ADDED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
+		INJECTED from E:\gitOgmallWork\ogmall\OgmallPad\unity-android-resources\AndroidManifest.xml
